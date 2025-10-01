@@ -1,5 +1,5 @@
 // JavaScript source code
-dubugger
+dubugger;
 var req = new XMLHttpRequest();
 var formContext = executionContext.getFormContext();
 var AccountGuid = formContext.data.entity.getId();
@@ -25,4 +25,5 @@ req.onreadystatechange = function () {
     }
 };
 req.send();
+
 
